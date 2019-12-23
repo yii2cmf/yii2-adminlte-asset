@@ -1,0 +1,22 @@
+{
+    "name": "yii2cmf/yii2-adminlte-asset",
+    "description": "AdminLTE is a fully responsive administration template. Based on Bootstrap 4 framework. Highly customizable and easy to use. Fits many screen resolutions from small mobile devices to large desktops.",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","template","admin","theme","adminlte"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "shandyrov",
+            "email": "shandyrov@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0",
+        "almasaeed2010/adminlte": "3.0.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "yii2cmf\\templates\\adminlte\\": "src"
+        }
+    }
+}
