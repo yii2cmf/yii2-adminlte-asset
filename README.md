@@ -29,7 +29,11 @@ After creating the module (e.g. admin) you should add some initialization code i
 
 ```php
 
-    public function init()
+use Yii;
+use yii\base\Theme;
+use yii\base\Application;
+
+    public function init():void
     {
         parent::init();
         $this->initTheme();
@@ -40,7 +44,7 @@ After creating the module (e.g. admin) you should add some initialization code i
     {
         Yii::$app->view->theme = new Theme([
             'pathMap' => ['@app/views' => '@yii2cmf/templates/adminlte'],
-            'baseUrl' => '@web/modules/admin'
+            'baseUrl' => '@web/templates/adminlte'
         ]);
     }
 
