@@ -33,7 +33,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
   <?= $this->render('_sidebar', ['bundle' => $bundle]) ?>
 
   <!-- Content Wrapper. Contains page content -->
-  <?= $this->render('_content_wrapper', ['bundle' => $bundle]) ?>
+  <?= $this->render('_content', ['bundle' => $bundle, 'content' => $content]) ?>
   <!-- /.content-wrapper -->
 
   <!-- Control Sidebar -->
