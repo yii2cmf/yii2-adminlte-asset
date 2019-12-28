@@ -22,7 +22,7 @@ or add
 to the require section of your `composer.json` file.
 
 
-Configuration for Yii2 basic app
+Configuration for module
 -----
 
 After creating the module (e.g. admin) you should add some initialization code in the Module.php:
@@ -56,6 +56,10 @@ Copy vendor/yii2cmf/yii2-adminlte-asset/src/views/adminlte folder to app/modules
 And edit Module.php file:
 
 ```php
+use Yii;
+use yii\base\Theme;
+use yii\base\Application;
+
 
     public function init():void
     {
@@ -72,3 +76,4 @@ And edit Module.php file:
     }
     
 ```    
+
