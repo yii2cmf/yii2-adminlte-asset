@@ -1,3 +1,5 @@
+![starter_page](https://raw.githubusercontent.com/shandyrov/images/master/extensions/adminlte/AdminLte3_StarterPage.png)
+
 AdminLTE 3 - Free admin dashboard template based on Bootstrap 4 for Yii2 framework
 =============================================================
 AdminLTE is a fully responsive administration template. Based on Bootstrap 4 framework. Highly customizable and easy to use. Fits many screen resolutions from small mobile devices to large desktops.
