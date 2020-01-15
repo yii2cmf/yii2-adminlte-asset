@@ -30,7 +30,6 @@ Configuration for module
 After creating the module (e.g. admin) you should add some initialization code in the Module.php:
 
 ```php
-
 use Yii;
 use yii\base\Theme;
 use yii\base\Application;
